@@ -1,0 +1,31 @@
+{
+	"title": "CoCart Compatibility Package",
+	"name": "cocart-compatibility-package",
+	"version": "1.0.0",
+	"private": false,
+	"contributors": [
+		"sebd86",
+		"cocartforwc"
+	],
+	"author": "Sébastien Dumont",
+	"author_uri": "https://sebastiendumont.com",
+	"homepage": "https://cocart.xyz/",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/co-cart/cocart-compatibility-package.git"
+	},
+	"bugs": {
+		"url": "https://github.com/co-cart/cocart-compatibility-package/issues"
+	},
+	"license": "GPL-3.0",
+	"copyright": "Copyright (c) 2022, Sébastien Dumont",
+	"description": "Provides compatibility for certain plugins and WooCommerce extensions for CoCart.",
+	"tags": "",
+	"keywords": [
+		"wordpress",
+		"package",
+		"woocommerce"
+	],
+	"devDependencies": {},
+	"dependencies": {}
+}

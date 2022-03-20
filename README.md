@@ -4,7 +4,7 @@
 
 <br>
 
-This is a package for CoCart that provides compatibility for certain plugins or WooCommerce extensions.
+This is a package for CoCart that provides compatibility for certain plugins and WooCommerce extensions.
 
 It is designed to be pulled in via Composer when CoCart is compiled for a plugin build release.
 
