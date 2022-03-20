@@ -1,6 +1,6 @@
 {
 	"title": "CoCart Compatibility Package",
-	"name": "cocart-compatibility-package",
+	"name": "cocart-compatibility",
 	"version": "1.0.0",
 	"private": false,
 	"contributors": [
@@ -12,10 +12,10 @@
 	"homepage": "https://cocart.xyz/",
 	"repository": {
 		"type": "git",
-		"url": "https://github.com/co-cart/cocart-compatibility-package.git"
+		"url": "https://github.com/co-cart/cocart-compatibility.git"
 	},
 	"bugs": {
-		"url": "https://github.com/co-cart/cocart-compatibility-package/issues"
+		"url": "https://github.com/co-cart/cocart-compatibility/issues"
 	},
 	"license": "GPL-3.0",
 	"copyright": "Copyright (c) 2022, Sébastien Dumont",
