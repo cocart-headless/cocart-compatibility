@@ -1,0 +1,11 @@
+.*
+.*/
+*.lock
+*.md
+*.zip
+composer.*
+package-lock.json
+package.json
+phpcs.xml
+README.md
+renovate.json

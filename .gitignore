@@ -1,0 +1,16 @@
+# Editors
+.vscode
+
+# OS X metadata
+.DS_Store
+
+# Windows junk
+Thumbs.db
+
+# Composer
+/vendor/
+
+# Various file types to ignore when exporting.
+.gitconfig
+*.json
+*.yml
