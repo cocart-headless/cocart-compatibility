@@ -26,7 +26,6 @@ class Package {
 		self::include_modules();
 	}
 
-
 	/**
 	 * Return the name of the package.
 	 *
