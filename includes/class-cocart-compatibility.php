@@ -21,8 +21,9 @@ class Package {
 	 * Initiate Package.
 	 *
 	 * @access public
+	 * @static
 	 */
-	public function init() {
+	public static function init() {
 		self::include_modules();
 	}
 
@@ -63,8 +64,9 @@ class Package {
 	 * Load support for extension compatibility.
 	 *
 	 * @access public
+	 * @static
 	 */
-	public function include_modules() {
+	public static function include_modules() {
 		include_once dirname( __FILE__ ) . '/modules/class-cocart-advanced-shipping-packages.php'; // Advanced Shipping Packages.
 		include_once dirname( __FILE__ ) . '/modules/class-cocart-free-gift-coupons.php'; // Free Gift Coupons.
 	} // END include_modules()
