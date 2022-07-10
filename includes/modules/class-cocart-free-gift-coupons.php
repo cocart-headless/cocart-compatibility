@@ -5,10 +5,10 @@
  * @author  Sébastien Dumont
  * @package CoCart\Compatibility\Modules
  * @since   3.0.0
- * @license GPL-2.0+
+ * @version 4.0.0
  */
 
-namespace CoCart\Compatibility;
+namespace CoCart\Compatibility\Modules;
 
 // Exit if accessed directly.
 if ( ! defined( 'ABSPATH' ) ) {

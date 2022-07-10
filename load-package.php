@@ -2,7 +2,7 @@
 /**
  * This file is designed to be used to load as package NOT a WP plugin!
  *
- * @version 1.0.0
+ * @version 4.0.0
  * @package CoCart Compatibility Package
  */
 
@@ -14,7 +14,7 @@ if ( ! defined( 'COCART_COMPATIBILITY_PACKAGE_FILE' ) ) {
 
 // Include the main CoCart Compatibility Package class.
 if ( ! class_exists( 'CoCart\Compatibility\Package', false ) ) {
-	include_once( untrailingslashit( plugin_dir_path( COCART_COMPATIBILITY_PACKAGE_FILE ) ) . '/includes/class-cocart-compatibility.php' );
+	include_once untrailingslashit( plugin_dir_path( COCART_COMPATIBILITY_PACKAGE_FILE ) ) . '/includes/class-cocart-compatibility.php';
 }
 
 /**
@@ -24,7 +24,7 @@ if ( ! class_exists( 'CoCart\Compatibility\Package', false ) ) {
  */
 if ( ! function_exists( 'cocart_compatibility_package' ) ) {
 	function cocart_compatibility_package() {
-		return \CoCart\Compatibility\Package::init();
+		return CoCart\Compatibility\Package::init();
 	}
 
 	cocart_compatibility_package();

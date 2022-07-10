@@ -1,6 +1,10 @@
 # Editors
 .vscode
 
+# Grunt
+/node_modules/
+npm-debug.log
+
 # OS X metadata
 .DS_Store
 
