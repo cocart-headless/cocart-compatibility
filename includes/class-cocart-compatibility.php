@@ -35,7 +35,9 @@ class Package {
 	 * @static
 	 */
 	public static function init() {
-		self::include_modules();
+		add_action( 'plugins_loaded', function() {
+			self::include_modules();
+		}, 99 );
 	}
 
 	/**
