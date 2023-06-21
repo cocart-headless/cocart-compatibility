@@ -27,7 +27,7 @@
 	},
 	"require-dev": {
 		"co-cart/cocart-sniffs": "0.0.2",
-		"squizlabs/php_codesniffer": "3.6.2"
+		"squizlabs/php_codesniffer": "3.7.2"
 	},
 	"scripts": {
 		"phpcs": [
