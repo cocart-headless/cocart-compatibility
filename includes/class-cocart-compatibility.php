@@ -32,6 +32,7 @@ class Package {
 	 * Initiate Package.
 	 *
 	 * @access public
+	 *
 	 * @static
 	 */
 	public static function init() {
@@ -44,7 +45,9 @@ class Package {
 	 * Return the name of the package.
 	 *
 	 * @access public
+	 *
 	 * @static
+	 *
 	 * @return string
 	 */
 	public static function get_name() {
@@ -55,7 +58,9 @@ class Package {
 	 * Return the version of the package.
 	 *
 	 * @access public
+	 *
 	 * @static
+	 *
 	 * @return string
 	 */
 	public static function get_version() {
@@ -66,7 +71,9 @@ class Package {
 	 * Return the path to the package.
 	 *
 	 * @access public
+	 *
 	 * @static
+	 *
 	 * @return string
 	 */
 	public static function get_path() {
@@ -77,6 +84,7 @@ class Package {
 	 * Load support for extension compatibility.
 	 *
 	 * @access public
+	 *
 	 * @static
 	 */
 	public static function include_modules() {
