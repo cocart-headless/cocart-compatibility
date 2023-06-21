@@ -89,7 +89,8 @@ class Package {
 	 */
 	public static function include_modules() {
 		include_once dirname( __FILE__ ) . '/modules/class-cocart-advanced-shipping-packages.php'; // Advanced Shipping Packages.
-		include_once dirname( __FILE__ ) . '/modules/class-cocart-free-gift-coupons.php'; // Free Gift Coupons.
+		include_once dirname( __FILE__ ) . '/modules/class-cocart-deposits.php';                   // Deposits.
+		include_once dirname( __FILE__ ) . '/modules/class-cocart-free-gift-coupons.php';          // Free Gift Coupons.
 	} // END include_modules()
 
 } // END class.
