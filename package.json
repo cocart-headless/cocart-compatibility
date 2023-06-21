@@ -18,7 +18,7 @@
 		"url": "https://github.com/co-cart/cocart-compatibility/issues"
 	},
 	"license": "GPL-3.0",
-	"copyright": "Copyright (c) 2022, Sébastien Dumont",
+	"copyright": "Copyright (c) 2023, Sébastien Dumont",
 	"description": "Provides compatibility for certain plugins and WooCommerce extensions for CoCart.",
 	"tags": "",
 	"keywords": [
