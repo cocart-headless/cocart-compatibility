@@ -1,7 +1,7 @@
-blank_issues_enabled: true
+blank_issues_enabled: false
 contact_links:
   - name: ☀️ Core Issue
-    url: https://github.com/co-cart/co-cart
+    url: https://github.com/co-cart/cocart-core
     about: If you have issues related to the core of CoCart or the Cart API, please report them to this repository.
 
   - name: 🖥️ Admin Issue
@@ -29,5 +29,5 @@ contact_links:
     about: If you have a question please use the support forum!
 
   - name: 😄 Discord
-    url: https://cocartapi.com/discord
+    url: https://cocart.xyz/community
     about: Join the official community for CoCart on Discord.
